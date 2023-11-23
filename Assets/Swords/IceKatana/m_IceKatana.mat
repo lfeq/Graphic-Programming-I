@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8096035219156371812
+--- !u!114 &-5413971095918102849
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,14 +20,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: m_DarkMatterKatana
-  m_Shader: {fileID: -6465566751694194690, guid: a54a5e93f687e1f4782b607584ab22b5,
+  m_Name: m_IceKatana
+  m_Shader: {fileID: -6465566751694194690, guid: b6812f0fd3b129e4da8c9add3e606cc4,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -37,16 +37,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_1d456abdc3f84f598e0d3966d972b5ef_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: ae71d3b3938d87949a23cf392f3274c2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_fd7325d24b8d493baae292cd6dc6f755_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: e8670c681c502d347a64b8f1024a1e2b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _mainTexture:
-        m_Texture: {fileID: 2800000, guid: 0b19b059b92bd124a9ffb0067608b1ce, type: 3}
+    - _Ice_Texture:
+        m_Texture: {fileID: 2800000, guid: 836c5e6651bbe84449abd30c626ade1d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -63,17 +55,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Ambient_Occlusion: 1
+    - _Fresnel_Power: 1
     - _Metallic: 1
+    - _Normals: -3
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 1
-    - _Speed: 0.2
-    - _Star_Speed_1: 0.5
-    - _Star_Speed_2: 0.2
+    - _Refraction_Amount: 0.54
+    - _Smoothnes: 0.523
     m_Colors:
-    - _StarsColor: {r: 7.0943394, g: 0.30117467, b: 2.6562755, a: 1}
-    - _Stars_Color_1: {r: 0.054901935, g: 0.5137708, b: 0.7490197, a: 1}
-    - _Stars_Color_2: {r: 0.321338, g: 0.038848326, b: 0.9150943, a: 1}
-    - _Tiling: {r: 1.5, g: 1.5, b: 0, a: 0}
+    - _Fresnel_Color: {r: 0.745283, g: 0, b: 0.5282806, a: 1}
+    - _IceColor: {r: 0.107689574, g: 1.1787441, b: 2.0754716, a: 1}
+    - _Ice_Tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
